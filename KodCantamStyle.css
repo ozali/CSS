@@ -1,9 +1,13 @@
-.onemliKutusu{
-    border:3px solid darkred;
+
+@import url('https://fonts.googleapis.com/css?family=Play|Roboto:300');
+
+.onemliKutusu {
+    border: 3px solid darkred;
     border-left: 3px solid darkred;
     border-radius: 10px;
     background: #f1aeae;
-    padding: 5px 5px 5px 20px; 
+    padding: 5px 5px 5px 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .baslik{           
