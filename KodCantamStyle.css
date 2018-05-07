@@ -2,25 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=Play|Roboto:300');
 
 
-table#tblNormal{
+table.tblNormal{
     margin: auto;
     width: 90%;
     border:1px solid black;
     border-collapse: collapse;
 }
-table#tblNormal th, table#tblNormal td {
+table.tblNormal th, table.tblNormal td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 15px;
     text-align: left;
 }
-table#tblNormal tr:nth-child(even) {
+table.tblNormal tr:nth-child(even) {
     background-color: #eee;
 }
-table#tblNormal tr:nth-child(odd) {
+table.tblNormal tr:nth-child(odd) {
    background-color: #fff;
 }
-table#tblNormal th {
+table.tblNormal th {
     background-color: royalblue;
     color: white;
 }
