@@ -1,6 +1,29 @@
 
 @import url('https://fonts.googleapis.com/css?family=Play|Roboto:300');
 
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#tblNormal tr:nth-child(even) {
+    background-color: #eee;
+}
+table#tblNormal tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#tblNormal th {
+    background-color: royalblue;
+    color: white;
+}
+
+
 .onemliKutusu {
     border: 3px solid darkred;
     border-left: 3px solid darkred;
