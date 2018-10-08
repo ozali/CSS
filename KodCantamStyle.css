@@ -4,6 +4,9 @@
 /* W3 SCHOOL CSS Dosyası */
 @import url('https://www.w3schools.com/w3css/4/w3.css');
 
+/* Google iconlarını kullanabilmek için gerekli link.*/
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 
 
 table.tblNormal{
