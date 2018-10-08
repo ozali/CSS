@@ -79,7 +79,7 @@ table.tblNormal th {
     text-indent:0px;
 } 
 
-ul.sirasizListe{
+ul.sirasizListe{ /* .govde sınıfıyla sadece type özelliği farklı */
     font-family: 'Roboto', sans-serif;
     font-size: medium;
     font-weight:normal;            
